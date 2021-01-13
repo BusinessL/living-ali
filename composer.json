@@ -1,0 +1,19 @@
+{
+    "name": "yun-hai/livinglink-ali",
+    "description": "阿里生活物联网平台（飞燕平台）sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yun Hai",
+            "email": "calmliqi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Living\\": "src"
+        }
+    }
+}
