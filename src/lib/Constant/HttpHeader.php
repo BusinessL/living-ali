@@ -18,6 +18,8 @@
  * under the License.
  */
 
+namespace Living\lib\Constant;
+
 /**
  * HTTP头常量
  */

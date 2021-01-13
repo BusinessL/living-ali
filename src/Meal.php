@@ -33,6 +33,8 @@ class Meal
     public function getFreecloudstorage(string $iotId)
     {
         $response = $this->client->post('/vision/customer/freecloudstorage/get', ['iotId' => $iotId], "1.0.1");
+
+        return $response;
     }
 
     /**

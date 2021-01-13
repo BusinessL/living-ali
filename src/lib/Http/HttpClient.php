@@ -18,8 +18,12 @@
  * under the License.
  */
 
+namespace Living\lib\Http;
+
+use Living\lib\Util\HttpUtil;
+
 /**
-*httpClient¶ÔÏó
+*httpClientï¿½ï¿½ï¿½ï¿½
 */
 class HttpClient
 {

@@ -18,6 +18,11 @@
  * under the License.
  */
 
+namespace Living\lib\Util;
+
+use Living\lib\Constant\HttpSchema;
+use Living\lib\Constant\SystemHeader;
+use Living\lib\Http\HttpResponse;
 
 /**
 *http请求处理

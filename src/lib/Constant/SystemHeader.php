@@ -18,6 +18,8 @@
  * under the License.
  */
 
+namespace Living\lib\Constant;
+
 /**
  * 系统HTTP头常量
  */

@@ -18,25 +18,27 @@
  * under the License.
  */
 
+namespace Living\lib\Constant;
+
 /**
- * Í¨ÓÃ³£Á¿
+ * Í¨ï¿½Ã³ï¿½ï¿½ï¿½
  */
 class Constants
 {
-	//Ç©ÃûËã·¨HmacSha256
+	//Ç©ï¿½ï¿½ï¿½ã·¨HmacSha256
     const HMAC_SHA256 = "HmacSHA256";
-    //±àÂëUTF-8
+    //ï¿½ï¿½ï¿½ï¿½UTF-8
     const ENCODING = "UTF-8";
     //UserAgent
     const USER_AGENT = "demo/aliyun/java";
-    //»»ÐÐ·û
+    //ï¿½ï¿½ï¿½Ð·ï¿½
     const LF = "\n";
-	//·Ö¸ô·û1
+	//ï¿½Ö¸ï¿½ï¿½ï¿½1
     const SPE1 = ",";
-    //·Ö¸ô·û2
+    //ï¿½Ö¸ï¿½ï¿½ï¿½2
     const SPE2 = ":";
-    //Ä¬ÈÏÇëÇó³¬Ê±Ê±¼ä,µ¥Î»ºÁÃë
+    //Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±Ê±ï¿½ï¿½,ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½
     const DEFAULT_TIMEOUT = 1000;
-    //²ÎÓëÇ©ÃûµÄÏµÍ³HeaderÇ°×º,Ö»ÓÐÖ¸¶¨Ç°×ºµÄHeader²Å»á²ÎÓëµ½Ç©ÃûÖÐ
+    //ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½ÏµÍ³HeaderÇ°×º,Ö»ï¿½ï¿½Ö¸ï¿½ï¿½Ç°×ºï¿½ï¿½Headerï¿½Å»ï¿½ï¿½ï¿½ëµ½Ç©ï¿½ï¿½ï¿½ï¿½
 	const CA_HEADER_TO_SIGN_PREFIX_SYSTEM = "X-Ca-";
 }

@@ -18,10 +18,13 @@
  * under the License.
  */
 
+namespace Living\lib\Constant;
+
 /**
  * HTTP方法常量
  */
-class HttpMethod {
+class HttpMethod
+{
     //GET
     const GET = "GET";
     //POST
@@ -30,6 +33,6 @@ class HttpMethod {
     const PUT = "PUT";
     //DELETE
     const DELETE = "DELETE";
-	//HEAD
+    //HEAD
     const HEAD = "HEAD";
 }

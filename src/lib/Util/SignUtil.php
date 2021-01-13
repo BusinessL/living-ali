@@ -18,6 +18,12 @@
  * under the License.
  */
 
+namespace Living\lib\Util;
+
+use Living\lib\Constant\Constants;
+use Living\lib\Constant\HttpHeader;
+use Living\lib\Constant\SystemHeader;
+
 /**
 *签名处理
 */
